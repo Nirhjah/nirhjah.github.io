@@ -23,13 +23,13 @@ function Home() {
                         navigate('/projects');
                     }}>Projects</Button>
 
-                    <Button style={{ marginRight: '10px' }} variant="contained"  onClick={() => {
-                        navigate('/projects');
-                    }}>LinkedIn</Button>
+                    <Button style={{ marginRight: '10px' }} variant="contained" component="a" href="https://www.linkedin.com/in/nirhjah-selvarajah/" target="_blank">
+                        LinkedIn
+                    </Button>
 
-                    <Button variant="contained"  onClick={() => {
-                        navigate('/projects');
-                    }}>Github</Button>
+                    <Button style={{ marginRight: '10px' }} variant="contained" component="a" href="https://github.com/nirhjah" target="_blank">
+                        Github
+                    </Button>
                 </div>
 
 

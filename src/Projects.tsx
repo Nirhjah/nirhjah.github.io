@@ -3,7 +3,7 @@ import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
-import {Divider, Typography} from "@mui/material";
+import {Button, Divider, Typography} from "@mui/material";
 import './App.css';
 
 function Projects() {
@@ -23,9 +23,18 @@ function Projects() {
 
 
                             <div className="project">
-                                    <Typography className="projectTitle" variant="h4" component="h4" color="common.black">
-                                            Playbook
-                                    </Typography>
+                                    <div style={{ display: 'flex', alignItems: 'center' }}>
+                                            <Typography className="projectTitle" variant="h4" component="h4" color="common.black">
+                                                    Playbook
+                                            </Typography>
+
+                                            <div style={{ marginLeft: '70%' }}>
+                                                    <Button variant="contained" component="a" href="https://github.com/nirhjah/seng302-project" target="_blank">
+                                                            code
+                                                    </Button>
+                                            </div>
+                                    </div>
+
                                     <Divider />
                                     <Typography className="projectText" variant="body1" color="common.black">
                                             A web application developed in a group of 7 throughout the course of the year, for SENG302.
@@ -44,9 +53,17 @@ function Projects() {
 
                     <div className="project">
 
-                            <Typography variant="h4" component="h4" color="common.black" className="projectTitle">
-                                    WiTSoc App
-                            </Typography>
+                            <div style={{ display: 'flex', alignItems: 'center' }}>
+                                    <Typography className="projectTitle" variant="h4" component="h4" color="common.black">
+                                            WiTSoc App
+                                    </Typography>
+
+                                    <div style={{ marginLeft: '70%' }}>
+                                            <Button variant="contained" component="a" href="https://github.com/nirhjah/seng440-assignment-1" target="_blank">
+                                                    code
+                                            </Button>
+                                    </div>
+                            </div>
                             <Divider />
 
                             <Typography className="projectText" variant="body1" color="common.black">
@@ -64,9 +81,17 @@ function Projects() {
 
                     <div className="project">
 
-                    <Typography variant="h4" component="h4" color="common.black" className="projectTitle">
-                                    UCanScan App
-                            </Typography>
+                            <div style={{ display: 'flex', alignItems: 'center' }}>
+                                    <Typography className="projectTitle" variant="h4" component="h4" color="common.black">
+                                            UCanScan App
+                                    </Typography>
+
+                                    <div style={{ marginLeft: '70%' }}>
+                                            <Button variant="contained" component="a" href="https://github.com/nirhjah/seng440-assignment-2" target="_blank">
+                                                    code
+                                            </Button>
+                                    </div>
+                            </div>
                             <Divider />
 
                             <Typography className="projectText" variant="body1" color="common.black">
@@ -85,9 +110,17 @@ function Projects() {
 
                     <div className="project">
 
-                    <Typography variant="h4" component="h4" color="common.black" className="projectTitle">
-                                    Supermarket Aisle Finder
-                            </Typography>
+                            <div style={{ display: 'flex', alignItems: 'center' }}>
+                                    <Typography className="projectTitle" variant="h4" component="h4" color="common.black">
+                                            Supermarket Aisle Finder
+                                    </Typography>
+
+                                    <div style={{ marginLeft: '70%' }}>
+                                            <Button variant="contained" component="a" href="https://github.com/nirhjah" target="_blank">
+                                                    code
+                                            </Button>
+                                    </div>
+                            </div>
                             <Divider />
 
                             <Typography className="projectText" variant="body1" color="common.black">
@@ -105,9 +138,17 @@ function Projects() {
 
                     <div className="project">
 
-                    <Typography variant="h4" component="h4" color="common.black" className="projectTitle">
-                                    Auction App
-                            </Typography>
+                            <div style={{ display: 'flex', alignItems: 'center' }}>
+                                    <Typography className="projectTitle" variant="h4" component="h4" color="common.black">
+                                            Auction App
+                                    </Typography>
+
+                                    <div style={{ marginLeft: '70%' }}>
+                                            <Button variant="contained" component="a" href="https://github.com/nirhjah/SENG365-Assignment-2" target="_blank">
+                                                    code
+                                            </Button>
+                                    </div>
+                            </div>
                             <Divider />
 
                             <Typography className="projectText" variant="body1" color="common.black">
@@ -125,9 +166,17 @@ function Projects() {
 
                     <div className="project">
 
-                            <Typography variant="h4" component="h4" color="common.black" className="projectTitle">
-                                    Follow The Direction
-                            </Typography>
+                            <div style={{ display: 'flex', alignItems: 'center' }}>
+                                    <Typography className="projectTitle" variant="h4" component="h4" color="common.black">
+                                            Follow the Direction
+                                    </Typography>
+
+                                    <div style={{ marginLeft: '70%' }}>
+                                            <Button variant="contained" component="a" href="https://github.com/nirhjah" target="_blank">
+                                                    code
+                                            </Button>
+                                    </div>
+                            </div>
                             <Divider />
 
                             <Typography className="projectText" variant="body1" color="common.black">
@@ -145,13 +194,21 @@ function Projects() {
 
                     <div className="project">
 
-                    <Typography variant="h4" component="h4" color="common.black" className="projectTitle">
-                                    CAMS (Crime Advertisement Management System)
-                            </Typography>
+                            <div style={{ display: 'flex', alignItems: 'center' }}>
+                                    <Typography className="projectTitle" variant="h4" component="h4" color="common.black"  style={{ width: '150px' }}>
+                                            CAMS
+                                    </Typography>
+
+                                    <div style={{ marginLeft: '70%' }}>
+                                            <Button variant="contained" component="a" href="https://github.com/nirhjah/seng202-project" target="_blank">
+                                                    code
+                                            </Button>
+                                    </div>
+                            </div>
                             <Divider />
 
                             <Typography className="projectText" variant="body1" color="common.black">
-                                    Developed with a group of 6 for SENG202.
+                                    CAMS (Crime Advertisement Management System) is an application developed with a group of 6 for SENG202.
                             </Typography>
 
                             <Typography className="projectText" variant="h6" component="h6" color="common.black">
