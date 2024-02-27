@@ -35,7 +35,7 @@ function Projects() {
                         title: "Playbook",
                         blurb: "A web application developed in a group of 7 throughout the course of the year, for SENG302.",
                         description: "",
-                        learning: "I learnt how to work in a fast paced scrum environment with a team of 7 who all have different strengths, and how to respond to product owner's feedback",
+                        learning: "I learnt how to work in a fast paced agile environment with a team of 7 who all have different strengths, and how to respond to product owner's feedback",
                         technologies: "Java, SpringBoot",
                         githubLink: "https://github.com/nirhjah/seng302-project"
                 },
@@ -83,6 +83,15 @@ function Projects() {
                         learning: "I learnt how to develop my first discord bot using Java and Discord4J library, as well as using the Spotify API and last fm API. I also learnt how to integrate MongoDB to store data.",
                         technologies: "Java, MongoDB",
                         githubLink: "https://github.com/nirhjah/spongey-bot"
+                },
+                {
+                        type: "WEB APPLICATION",
+                        title: "This website!",
+                        blurb: "My very own website hosted on github pages, created using React.",
+                        description: "As an ongoing project I've been working on, this website has been developed using React to display my projects.",
+                        learning: "Learnt how to deploy a website through github pages",
+                        technologies: "React, Typescript",
+                        githubLink: "https://github.com/nirhjah/nirhjah.github.io"
                 }
 
         ];
