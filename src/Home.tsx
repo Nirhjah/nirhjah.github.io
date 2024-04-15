@@ -18,6 +18,9 @@ function Home() {
                 <p>
                     a final year software engineering student @ the university of canterbury
                 </p>
+                <p>
+                    with a passion to develop software to help people and make people's lives easier!
+                </p>
 
                 <div style={{ display: 'flex', justifyContent: 'space-between' }}>
 

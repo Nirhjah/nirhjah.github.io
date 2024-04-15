@@ -31,6 +31,15 @@ function Projects() {
 
         const projects: ProjectType[] = [
                 {
+                        type: "MOBILE APPLICATION",
+                        title: "Bookworm",
+                        blurb: "Currently working on a mobile app that lets you scan words in books to find the meaning.",
+                        description: "A native mobile application for both iOS and Android that allows users to scan text in their book to find the dictionary meaning",
+                        learning: "I am currently learning how to develop an app using React Native so that it can run on both iOS and Android. I learnt how to implement the Google Cloud Vision API to read text in images.",
+                        technologies: "React Native, Expo",
+                        githubLink: "https://github.com/nirhjah/Bookworm"
+                },
+                {
                         type: "WEB APPLICATION",
                         title: "Playbook",
                         blurb: "A web application developed in a group of 7 throughout the course of the year, for SENG302.",
